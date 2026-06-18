@@ -1,17 +1,22 @@
-<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
-  <div class="container">
-    <a class="navbar-brand" href="#page-top"><img src="img/logo1.png" width="260px" height="70px"></a>
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i><!--buscar incono-->
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav text-uppercase ml-auto">
-        <li class="nav-item">
-          <a class="nav-link"  style="font-size: 18px;" href="iniciaSesion.php" ><i class="fa fa-sign-in""></i>&nbsp;&nbsp;Iniciar Sesion</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" style="font-size: 18px;" href="modulos/cliente/registro.php"><i class="fa fa-group"></i>&nbsp;&nbsp;Registrate</a>
-        </li>
-      </ul>
+<header class="nav">
+  <div class="container nav__inner">
+    <a href="#" class="nav__brand">
+      
+        <img src="img/logoF.png" width="60px" height="70px">
+      
+      PASE <span class="nav__sub">Bus facultativo</span>
+    </a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#funciones">Funciones</a>
+      <a href="#tarifas">Tarifas</a>
+    </nav>
+    <div class="nav__actions">
+      <a href="#" class="btn btn--ghost btn--small">Iniciar sesión</a>
+      <a href="#" class="btn btn--primary btn--small">Solicitar acceso</a>
     </div>
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
   </div>
-</nav>
+</header>

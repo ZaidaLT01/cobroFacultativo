@@ -1,329 +1,244 @@
-<!--Swiper-->
- <div class="col-13 ">
-    <div class="swiper-container swiper-slider" data-loop="false" data-autoplay="5500" data-dragable="true">
-
-      <div class="swiper-wrapper text-center">
-        <div class="swiper-slide" data-slide-bg="img/carusel/1.jpg" data-preview-bg="images/background-01-1920x750.jpg">
-          <div class="swiper-caption swiper-parallax" data-speed="0.5" data-fade="true">
-            <div class="swiper-slide-caption">
-              <div class="container">
-                <div class="row justify-content-xl-center">
-                  <div class="col-xl-12">
-                    <div class="text-extra-big font-weight-bold font-italic text-uppercase" data-caption-animate="fadeInUp" data-caption-delay="300">CENTRO DEPORTIVO </div>
-                  </div>
-                  <div class="col-xl-8 offset-top-10">
-                    <h5 class="hidden d-sm-block text-light" data-caption-animate="fadeInUp" data-caption-delay="500">
-                    Proporcionamos instalaciones que permitan a los participantes desarrollar sus habilidades en diferentes deportes y actividades físicas.
-                    </h5>
-                  <div class="offset-top-20 offset-sm-top-50"><a class="btn btn-danger btn-anis-effect" href="#inicio" data-waypoint-to="#welcome" data-caption-animate="fadeInUp" data-caption-delay="800"><span class="btn-text">Empezar Ya!</span></a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <svg class="hero__bg" viewBox="0 0 1200 600" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M -50 470 C 180 250, 420 540, 660 320 S 1020 90, 1320 220"
+          fill="none" stroke="#8FE3B0" stroke-width="3" stroke-dasharray="2 14" stroke-linecap="round"/>
+    <circle cx="660" cy="320" r="7" fill="#8FE3B0"/>
+    <circle cx="180" cy="270" r="7" fill="#8FE3B0"/>
+    <circle cx="1020" cy="92" r="7" fill="#8FE3B0"/>
+  </svg>
+  <div class="container hero__inner">
+    <div class="reveal">
+      <span class="eyebrow">Plataforma de cobros · Bus facultativo</span>
+      <h1 class="hero__title">Innovando el <span>Transporte institucional</span> con control y confianza</h1>
+      <p class="hero__subtitle">
+        Más control, más seguridad y una mejor experiencia de transporte para estudiantes, docentes y administrativos.
+      </p>
+      <div class="hero__actions">
+        <a href="#" class="btn btn--primary">Solicitar acceso</a>
+        <a href="#como-funciona" class="btn btn--ghost">Ver cómo funciona</a>
       </div>
-
-      <div class="swiper-slide" data-slide-bg="img/carusel/5.jpg" data-preview-bg="images/background-02-1920x750.jpg">
-        <div class="swiper-caption swiper-parallax" data-speed="0.5" data-fade="true">
-          <div class="swiper-slide-caption">
-            <div class="container">
-              <div class="row justify-content-xl-center">
-                <div class="col-xl-12">
-                  <div class="text-extra-big font-weight-bold font-italic text-uppercase" data-caption-animate="fadeInUp" data-caption-delay="300">CREA TU EQUIPO</div>
-                </div>
-                <div class="col-xl-8 offset-top-10">
-                  <h5 class="hidden d-sm-block text-light" data-caption-animate="fadeInUp" data-caption-delay="500"> Ten la oportunidad de conectarte a través del deporte, promovemos el trabajo en equipo, la cooperación y la construcción de relaciones sociales.</h5>
-                  <div class="offset-top-20 offset-sm-top-50"><a class="btn btn-danger btn-anis-effect" href="#retos" data-waypoint-to="#welcome" data-caption-animate="fadeInUp" data-caption-delay="800"><span class="btn-text">Empezar Ya!</span></a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="swiper-slide" data-slide-bg="img/carusel/8.jpg" data-preview-bg="images/background-03-1920x750.jpg">
-        <div class="swiper-caption swiper-parallax" data-speed="0.5" data-fade="true">
-          <div class="swiper-slide-caption">
-            <div class="container">
-              <div class="row justify-content-xl-center">
-                <div class="col-xl-12">
-                  <div class="text-extra-big font-weight-bold font-italic text-uppercase" data-caption-animate="fadeInUp" data-caption-delay="300">SAL DE LO COTIDIANO</div>
-                </div>
-                <div class="col-xl-8 offset-top-10">
-                  <h5 class="hidden d-sm-block text-light" data-caption-animate="fadeInUp" data-caption-delay="500">Proporcionamos Juegos de mesa, servicio de cafeteria y mucho mas, para que te relajes y disfrutes de tu tiempo libre al maximo </h5>
-                  <div class="offset-top-20 offset-sm-top-50"><a class="btn btn-danger btn-anis-effect" href="#cafeteria" data-waypoint-to="#welcome" data-caption-animate="fadeInUp" data-caption-delay="800"><span class="btn-text">Empezar Ya!</span></a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </div>
-
-    <div class="swiper-button swiper-button-prev swiper-parallax fas fa-chevron-left"></div>
-    <div class="swiper-button swiper-button-next swiper-parallax fas fa-chevron-right"></div>
-    <div class="swiper-pagination"></div>
-
-  </div>
-
-<!--Bienvenida-->
-<section id="inicio" class="section-98 section-md-110 novi-background" data-preset='{"title":"Content block 1","category":"content","id":"content-block-1"}'>
-  <div class="container">
-    <div class="col-md-12 text-center">
-      <h3 class="animate-charcter"> Bienvenido</h3>
+    <div class="hero__visual reveal">
+      <div class="ticket">
+        <div class="ticket__punches" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <div class="ticket__header">
+          <span class="ticket__route">Línea Cota COta · Turno mañana</span>
+          <span class="ticket__brand">PASE</span>
+        </div>
+        <div class="ticket__body">
+          <svg class="ticket__qr" viewBox="0 0 90 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="90" height="90" fill="#fff"/>
+            <rect x="0" y="0" width="30" height="30" fill="#15281E"/>
+            <rect x="10" y="10" width="10" height="10" fill="#fff"/>
+            <rect x="60" y="0" width="30" height="30" fill="#15281E"/>
+            <rect x="70" y="10" width="10" height="10" fill="#fff"/>
+            <rect x="0" y="60" width="30" height="30" fill="#15281E"/>
+            <rect x="10" y="70" width="10" height="10" fill="#fff"/>
+            <rect x="40" y="10" width="10" height="10" fill="#15281E"/>
+            <rect x="50" y="30" width="10" height="10" fill="#15281E"/>
+            <rect x="30" y="40" width="10" height="10" fill="#15281E"/>
+            <rect x="70" y="40" width="10" height="10" fill="#15281E"/>
+            <rect x="40" y="50" width="10" height="10" fill="#15281E"/>
+            <rect x="60" y="60" width="10" height="10" fill="#15281E"/>
+            <rect x="40" y="70" width="10" height="10" fill="#15281E"/>
+            <rect x="50" y="80" width="10" height="10" fill="#15281E"/>
+            <rect x="20" y="50" width="10" height="10" fill="#15281E"/>
+            <rect x="70" y="70" width="10" height="10" fill="#15281E"/>
+          </svg>
+          <div class="ticket__info">
+            <span class="ticket__label">Pasajero</span>
+            <span class="ticket__value">María Apaza</span>
+            <span class="ticket__label">Tarifa</span>
+            <span class="ticket__value ticket__value--big">Bs 2.00</span>
+            <span class="ticket__label">Válido hasta</span>
+            <span class="ticket__value">31/07/2026</span>
+          </div>
+        </div>
+        <div class="ticket__footer">
+          <span>Salida 07:40</span>
+          <span class="ticket__status">Pago confirmado</span>
+        </div>
+      </div>
     </div>
-    <hr class="divider bg-red">
   </div>
 </section>
 
-
-<!-- Servicios-->
-<section class="bg-light" id="servicios" role="tabpanel" aria-labelledby="list-home-list">
-  <div class="container">
-
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">Nuestros Servicios</h2>
-        <h3 class="section-subheading text-muted">¡Bienvenidos a Evolucionar! Esperamos que aprecie nuestros servicios y oportunidades que ofrecemos a nuestros clientes leales y potenciales.</h3>
-      </div>
+<!-- ================= Estadisticas ================= -->
+<section class="stats">
+  <div class="container stats__inner">
+    <div class="stat reveal">
+      <div class="stat__value">6</div>
+      <div class="stat__label">rutas activas dentro del campus</div>
     </div>
-
-    <div class="row">
-
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-          <img class="img-fluid" src="img/ejemplo1.jpg" alt="">
-        </a>
-        <div class="portfolio-caption">
-          <div class="box-icon box-icon-bordered"><span class="novi-icon icon icon-outlined icon-sm icon-dark-filled fas fa-plus"></span>
-            <h4 class="text-danger offset-top-20">Wally</h4>
-            <p>Tenemos a su disposicion 2 canchas de Wally, con las medidas oficiales, y la Altura de la Red adecuada tanto para Hombres, Mujeres y niños</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-          <img class="img-fluid" src="img/ejemplo3.jpg" alt="">
-        </a>
-        <div class="portfolio-caption">
-          <div class="box-icon box-icon-bordered"><span class="novi-icon icon icon-outlined icon-sm icon-dark-filled fas fa-plus"></span>
-            <h4 class="text-danger offset-top-20">Goodminton</h4>
-            <p>Disponemos de las Raquetas y Pollitos Adecuados</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-          <img class="img-fluid" src="img/ejemplo4.jpg" alt="">
-        </a>
-        <div class="portfolio-caption">
-          <div class="box-icon box-icon-bordered"><span class="novi-icon icon icon-outlined icon-sm icon-dark-filled fas fa-plus"></span>
-            <h4 class="text-danger offset-top-20">Badminton</h4>
-            <p>Disponemos de las Raquetas y Pollitos Adecuados, Adecuamos la red A la medida Oficial</p>
-          </div>
-        </div>
-      </div>
- 
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-          <img class="img-fluid" src="img/ejemplo5.jpg" alt="">
-        </a>
-        <div class="portfolio-caption">
-          <div class="box-icon box-icon-bordered"><span class="novi-icon icon icon-outlined icon-sm icon-dark-filled fas fa-plus"></span>
-            <h4 class="text-danger offset-top-20">Juegos de Mesa</h4>
-            <p>Disponemos de todo tipo de Juegos, para dos o mas personas, y con rango de Edades. Disponemos de ambientes Adecuados y comodos.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-          <img class="img-fluid " src="img/ejemplo26.jpg" alt="" >
-        </a>
-        <div class="portfolio-caption">
-          <div class="box-icon box-icon-bordered"><span class="novi-icon icon icon-outlined icon-sm icon-dark-filled fas fa-plus"></span>
-            <h4 class="text-danger offset-top-20">Raquet</h4>
-            <p>Disponemos de las Raquetas y Pelotitas Adecuadas, No hay inconvenientes si trae su propio equipo, El costo es menor </p>
-          </div>   
-        </div>
-      </div>
-
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-          <img class="img-fluid" src="img/ejemplo2.jpg" alt="">
-        </a>
-        <div class="portfolio-caption">
-          <div class="box-icon box-icon-bordered"><span class="novi-icon icon icon-outlined icon-sm icon-dark-filled fas fa-plus"></span>
-            <h4 class="text-danger offset-top-20">Ping Pong</h4>
-            <p>Disponemos de las Raquetas y Pelotitas Adecuadas</p>
-          </div>
-        </div>
-      </div>
-
+    <div class="stat reveal">
+      <div class="stat__value">+1.200</div>
+      <div class="stat__label">pases verificados cada mes</div>
+    </div>
+    <div class="stat reveal">
+      <div class="stat__value">&lt; 2 s</div>
+      <div class="stat__label">para confirmar un pago al subir</div>
     </div>
   </div>
-  <hr>
 </section>
 
-<!-- Retos -->
-<section id="retos" role="tabpanel" aria-labelledby="list-home-list">
+<!-- ================= COMO FUNCIONA ==============cambiar fondo=== -->
+<section class="section comoFunciona" id="como-funciona">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase" style="color: #ffffff" >Retos</h2>
-        <span class="badge badge-warning">
-          <h3 class=" text" >Raiking de Mejores Equipos - Wally</h3>
-        </span>
-      </div>
+    <div class="section__head reveal">
+      <span class="eyebrow">Cómo funciona</span>
+      <h2 class="section__title">De la parada a la caja, en cuatro pasos</h2>
+      <p class="section__intro">
+        Así viaja cada pago: desde que el estudiante sube al bus hasta que la
+        administración revisa el cierre del día.
+      </p>
     </div>
-    <hr class="divider bg-red">
-    <div class="row">
-      <div class="col-lg-12">
-
-        <ul class="timeline">
-                    
-          <li>
-            <div class="timeline-image">
-              <img class="rounded-circle img-fluid" src="img/ejemplo15.jpg" alt="">
-            </div>
-            <div class="timeline-panel" >
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="img/equipos/1.jpg" alt="Card image cap">
-                <div class="card-body" style="background-color: rgb(254,209,54,0.5)">
-                  <h5 class="card-title">1er Lugar</h5>
-                  <p class="card-text">Partidos Ganados 6- Partidos Perdidos 3.</p>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li class="timeline-inverted">
-            <div class="timeline-image">
-              <img class="rounded-circle img-fluid" src="img/ejemplo16.jpg" alt="">
-            </div>
-            <div class="timeline-panel">
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="img/equipos/2.jpg" alt="Card image cap">
-                <div class="card-body" style="background-color: rgb(254,209,54,0.5)">
-                  <h5 class="card-title">2do Lugar</h5>
-                  <p class="card-text">Partidos Ganados 5- Partidos Perdidos 3.</p>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <div class="timeline-image">
-              <img class="rounded-circle img-fluid" src="img/ejemplo20.jpg" alt="">
-            </div>
-            <div class="timeline-panel">
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="img/equipos/3.jpg" alt="Card image cap">
-                <div class="card-body" style="background-color: rgb(254,209,54,0.5)">
-                  <h5 class="card-title">3er Lugar</h5>
-                  <p class="card-text">Partidos Ganados 3- Partidos Perdidos 3.</p>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li class="timeline-inverted">
-            <div class="timeline-image">
-              <img class="rounded-circle img-fluid" src="img/ejemplo21.jpg" alt="">
-            </div>
-            <div class="timeline-panel">
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="img/equipos/4.jpg" alt="Card image cap">
-                <div class="card-body" style="background-color: rgb(254,209,54,0.5)">
-                  <h5 class="card-title">4to Lugar</h5>
-                  <p class="card-text">Partidos Ganados 3- Partidos Perdidos 4.</p>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li class="timeline-inverted">
-            <div class="timeline-image">
-              <h4>TU
-              <br>PUEDES
-              <br>ESTAR A QUI!</h4>
-            </div>
-          </li>
-
-        </ul>
+    <div class="route reveal">
+      <div class="route__line" aria-hidden="true"></div>
+      <div class="stop">
+        <div class="stop__node">01</div>
+        <h3 class="stop__title">Sube y muestra el pase</h3>
+        <p class="stop__desc">El estudiante presenta el código de su pase desde el celular o su tarjeta al subir al bus.</p>
+      </div>
+      <div class="stop">
+        <div class="stop__node">02</div>
+        <h3 class="stop__title">Se registra el cobro</h3>
+        <p class="stop__desc">El sistema descuenta el saldo o registra la tarifa de la ruta al instante, sin papeles.</p>
+      </div>
+      <div class="stop">
+        <div class="stop__node">03</div>
+        <h3 class="stop__title">El conductor confirma</h3>
+        <p class="stop__desc">Desde su panel, el conductor ve el estado del pago sin manejar efectivo ni hojas de control.</p>
+      </div>
+      <div class="stop">
+        <div class="stop__node">04</div>
+        <h3 class="stop__title">La caja se cierra sola</h3>
+        <p class="stop__desc">Al final del día, administración recibe el reporte de cobros por ruta y turno, listo para revisar.</p>
       </div>
     </div>
   </div>
-  <hr >
 </section>
 
-
-<!-- Cafeteria -->
-<section class="bg-light" id="cafeteria" role="tabpanel" aria-labelledby="list-home-list">
+<!-- ================= FUNCIONALIDADES ================= -->
+<section class="section features" id="funciones">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">Cafeteria</h2>
-        <h3 class="section-subheading text-muted">Mientras esperas un juego, Puedes disfrutas de la variedad de productos que te presentamos:.</h3>
-      </div>
+    <div class="section__head reveal">
+      <span class="eyebrow">Funcionalidades</span>
+      <h2 class="section__title">Todo lo que necesita una facultad para cobrar el bus</h2>
+      <p class="section__intro">
+        Pensado para que estudiantes, conductores y administración usen la parte
+        que les corresponde, sin duplicar trabajo.
+      </p>
     </div>
-    <div class="row text-center">
-      <div class="col-md-4">
-        <img class="rounded-circle img-fluid" src="img/ejemplo10.jpg" >
-        <h4 class="service-heading">Bebidas Calientes</h4>
-        <p class="text-muted">Te, Mates, Cafe, Cocoa, otros..</p>
+    <div class="features__grid">
+      <div class="feature reveal">
+        <div class="feature__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>
+          </svg>
+        </div>
+        <h3 class="feature__title">Cobro en tiempo real</h3>
+        <p class="feature__desc">Cada pago queda registrado al momento, con ruta, turno y conductor asociados.</p>
       </div>
-      <div class="col-md-4">
-        <img class="rounded-circle img-fluid" src="img/ejemplo11.jpg" >
-        <h4 class="service-heading">Bebidas Frias</h4>
-        <p class="text-muted">jugos, Batidos</p>
+      <div class="feature reveal">
+        <div class="feature__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 19c3-7 6-7 8-12 1.5-3.5 4-3 8-2"/>
+            <circle cx="4" cy="19" r="1.6" fill="currentColor"/>
+            <circle cx="20" cy="5" r="1.6" fill="currentColor"/>
+          </svg>
+        </div>
+        <h3 class="feature__title">Rutas y horarios</h3>
+        <p class="feature__desc">Configura las rutas del bus facultativo, sus paradas y los horarios de cada turno.</p>
       </div>
-      <div class="col-md-4">
-        <img class="rounded-circle img-fluid" src="img/ejemplo13.jpg" >
-        <h4 class="service-heading">Sandwiches</h4>
-        <p class="text-muted">Carne Fria, Huevo, Carne, Milanea..</p>
+      <div class="feature reveal">
+        <div class="feature__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h3"/>
+          </svg>
+        </div>
+        <h3 class="feature__title">Reportes y cierre de caja</h3>
+        <p class="feature__desc">Genera el resumen del día o del mes por ruta, turno o conductor en un clic.</p>
       </div>
-    </div>
-    <p>
-    <div class="row text-center">
-      <div class="col-md-4">
-        <img class="rounded-circle img-fluid" src="img/ejemplo14.jpg" >
-        <h4 class="service-heading">Sancks</h4>
-        <p class="text-muted">Galletas, Postres, Dulces, Salados</p>
+      <div class="feature reveal">
+        <div class="feature__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8" cy="10.5" r="2"/>
+            <path d="M5 17c.5-2 2-3 3-3s2.5 1 3 3"/><path d="M14 9h5M14 13h5"/>
+          </svg>
+        </div>
+        <h3 class="feature__title">Pases por estudiante</h3>
+        <p class="feature__desc">Saldo, historial de viajes y estado del pase, todo en un solo perfil.</p>
       </div>
-      <div class="col-md-4">
-        <img class="rounded-circle img-fluid" src="img/ejemplo12.jpg" >
-        <h4 class="service-heading">Gaseosas</h4>
-        <p class="text-muted">2l, 1l y demas</p>
+      <div class="feature reveal">
+        <div class="feature__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="9" r="3"/><path d="M3 19c0-3 2.5-5 6-5s6 2 6 5"/>
+            <circle cx="17" cy="8" r="2.5"/><path d="M14.5 14c2.8.3 4.5 2 4.5 5"/>
+          </svg>
+        </div>
+        <h3 class="feature__title">Roles y accesos</h3>
+        <p class="feature__desc">Estudiante, conductor y administración ven solo lo que necesitan, nada más.</p>
+      </div>
+      <div class="feature reveal">
+        <div class="feature__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 4a5 5 0 0 0-5 5v3c0 1.5-.5 2.5-1.5 3.5h13C17.5 14.5 17 13.5 17 12V9a5 5 0 0 0-5-5z"/>
+            <path d="M9.5 18a2.5 2.5 0 0 0 5 0"/>
+          </svg>
+        </div>
+        <h3 class="feature__title">Alertas de saldo y vencimiento</h3>
+        <p class="feature__desc">El sistema avisa cuando un pase está por vencer o el saldo queda bajo.</p>
       </div>
     </div>
   </div>
-  <hr>
-</section> 
-
-<!-- Promociones 
-  <section id="Promociones">
-  </section>
-Opiniones 
-  <section id="Promociones">
-  </section>-->
-
-<!-- Ubicacion -->
-<section id="Ubicacion" role="tabpanel" aria-labelledby="list-home-list">
-  <div class="col-lg-12 text-center">
-    <h2 style="color: #ffffff">¿Dónde nos Encuentras?</h2>
-    <div class="map-container" style="display: flex; justify-content: center; align-items: center;">
-      <div class=" d-flex align-items-center">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15302.721720812027!2d-68.1936322!3d-16.4917115!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915edf99e0a64f7f%3A0x96e453e3ebda815d!2sRaquet%20Wally%20Evolution!5e0!3m2!1ses-419!2sbo!4v1699571330932!5m2!1ses-419!2sbo" width="600" height="450" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-    </div>
-  </div>
-  <hr>
 </section>
 
+<!-- ================= TARIFAS ================= -->
+<section class="section" id="tarifas">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="eyebrow">Tarifas</span>
+      <h2 class="section__title">Tarifas del bus facultativo</h2>
+      <p class="section__intro">
+        Las tarifas se configuran una sola vez y el sistema las aplica automáticamente
+        en cada ruta y cada cobro.
+      </p>
+    </div>
+    <div class="fares__grid">
+      <div class="fare reveal">
+        <span class="fare__name">Pasaje sencillo</span>
+        <span class="fare__price">Bs 2.50</span>
+        <span class="fare__period">por viaje</span>
+        <p class="fare__desc">Válido para cualquier ruta dentro del campus, pago al subir.</p>
+      </div>
+      <div class="fare fare--highlight reveal">
+        <span class="fare__badge">Más elegido</span>
+        <span class="fare__name">Pase mensual</span>
+        <span class="fare__price">Bs 80</span>
+        <span class="fare__period">al mes</span>
+        <p class="fare__desc">Viajes ilimitados durante el mes, en todas las rutas activas.</p>
+      </div>
+      <div class="fare reveal">
+        <span class="fare__name">Pase semestral</span>
+        <span class="fare__price">Bs 400</span>
+        <span class="fare__period">por semestre</span>
+        <p class="fare__desc">Viajes ilimitados por semestre, equivalente a un mes de descuento.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="cta">
+  <div class="container cta__inner reveal">
+    <h2 class="cta__title">¿Tu facultad todavía cobra el bus con cuadernos y efectivo?</h2>
+    <p class="cta__sub">Pon en marcha el pase digital y deja que el sistema lleve la cuenta por ti.</p>
+    <a href="#" class="btn btn--light">Solicitar acceso para mi facultad</a>
+  </div>
+</section>
 
 <!-- Contactanos -->
 <section class="bg-light " id="team" role="tabpanel" aria-labelledby="list-home-list">
